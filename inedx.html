@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,th, td{
+            border: 1px solid black;
+        }
+
+        h2{
+          text-align: center;
+          background-color: aliceblue;
+        }
+        .form-heading{
+          color: maroon;
+        }
+        #heading2{
+          font-family:  'Trebuchet MS', sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <!--This is heaing part-->
+    <h1>We are learning HTML</h1>
+    <hr>
+   <!-- <a href="./pages/signup.html" target="_blank">Sign Up</a>
+   <img src="./images/download.jpg">
+   <p>
+    We are learning HTML with <br><b>W3schools</b>
+   </p> -->
+   <!-- <table>
+    <tr>
+        <th>Name</th>
+        <th>Roll</th>
+        <th>Phone Number</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Ikramul Alam</td>
+        <td rowspan="2">000001</td>
+        <td>01521525880</td>
+    </tr>
+    <tr>
+        <td>01946820474</td>
+    </tr>
+    <tr>
+        <td>Abdur Rahim</td>
+        <td>048</td>
+        <td>01766704208</td>
+    </tr>
+   </table>
+   <br>
+   <table>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+      <th>Cost</th>
+    </tr>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+      <td>$200</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td colspan="2">Total Savings: $180</td>
+      <td>Expense: $300</td>
+    </tr>
+  </table> -->
+
+  <!-- <form>
+    <label>Full Name</label>
+    <input placeholder="type your full name here" value="ikramul" type="text" required>
+    <label>Phone</label>
+    <input placeholder="type your full name here" value="01*****" type="number" required><br><br>
+    <label>Email</label>
+    <input placeholder="type your mail here" type="email">
+    <button type="submit">Submit</button>
+    
+  </form> -->
+
+  <table>
+    <form>
+      <h2 class="form-heading bgt">School Admission Form</h2>
+<!-- <div class="circle"></div> -->
+      <!-- <div class="bg-img"></div> -->
+      <h2 id="heading2" class="bgt">School Admission Form-2</h2>
+      <tr>
+        <td>Student's Name*</td>
+        <td><input type="text" placeholder="first name" required> </td>
+        <td><input type="text" placeholder="last name" required> </td>
+      </tr>
+      <tr>
+        <td>Class to Join*</td>
+        <td colspan="2">
+          <input type="radio" name="class" value="9" id="cl-9">
+          <label for="cl-9">Class 9</label>
+          <br>
+          <input type="radio" name="class" value="10" id="cl-10">
+          <label for="cl-10">Class 10</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" style="text-align: center; background-color: aquamarine;">
+          <button type="submit">Filled Up</button>
+        </td>
+      </tr>
+    </form>
+  </table>
+  <span class="mp">This is margin and</span>
+</body>
+</html>

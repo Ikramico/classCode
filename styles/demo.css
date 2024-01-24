@@ -1,0 +1,82 @@
+body{
+   /* background-image: url('../images/download.jpg');
+   background-attachment: scroll; */
+   /* font-family:'new-font';
+   
+   font-style: normal;; */
+} */
+/* .menubar{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    padding: 5px 0;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+}
+.mno{
+   position: relative;
+}
+ .menubar a{
+    text-decoration: none;
+    color: white;
+ }
+ .menu-items:hover{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    box-sizing: border-box;
+ }
+ .menu-items{
+    margin: 5px;
+ }
+ .icon{
+   font-size: 25px;
+   color: green;
+ }
+ .down{
+   position: fixed;
+   right: 2px;
+   bottom: 10px;
+ }
+ .ab{
+   position: absolute;
+   bottom: 0;
+   right: 2px;
+ }
+ /*  */
+
+ /* @font-face {
+   font-family: 'new-font';
+   src: url(../fonts/Poppins-Light.ttf);
+ } */
+ .menu{
+   height: 300px;
+   width: 300px;
+   background-color: black;
+
+ }
+ .ima{
+   display: none;
+   transition: 2s;
+ }
+ .menu:hover .ima{
+   display: block;
+ }
+ .off{
+   text-decoration: line-through;
+   color: grey;
+   margin-right: 10px;
+   
+ }
+ .tag,.price{
+   color: white;
+
+ }
+ p{
+   text-align: center;
+ }
+ .menu-items::before{
+  content: 'to' ;
+  
+ }

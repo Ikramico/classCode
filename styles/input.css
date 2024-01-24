@@ -1,0 +1,81 @@
+.wraper{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+.wraper::before{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 2px;
+    background-color: aquamarine;
+    left: 50px;
+    margin-top: 20px;
+}
+.wraper::after{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 2px;
+    background-color: aquamarine;
+    left: 300px;
+    margin-top: -87px;
+}
+.s1{
+    position: relative;
+}
+.s1::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background-color: aquamarine;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.s1::before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background-color: aquamarine;
+    margin-left: -200px;
+    margin-top: 20px;
+}
+h2{
+    position: relative;
+}
+h2::after{
+    content: "";
+    position: absolute;
+    width: 399px;
+    height: 2px;
+    background-color: aquamarine;
+    left: 55px;
+    margin-top: 300px;
+}
+.s2{
+    position: relative;
+}
+
+.s2::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background-color: aquamarine;
+    margin-left: 200px;
+    margin-top: 233px;
+}
+
+.s2::before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background-color: aquamarine;
+    margin-left: -198px;
+    margin-top: 233px;
+}

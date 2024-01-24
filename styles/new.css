@@ -1,0 +1,30 @@
+.new{
+    border: 3px solid black; 
+    position: relative;
+    margin: 50px;
+}
+.hlw{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: -35px;
+    left: 40%;
+}
+.h{
+    text-align: left;
+    background-color: white;
+    padding: 30px 1px;
+    position: absolute;
+    left: -10px;
+    top: 35%;
+    
+}
+.o{
+    text-align: right;
+    background-color: white;
+    padding: 20px 1px;
+    position: absolute;
+    right:  10px;
+    top: 35%;
+}
