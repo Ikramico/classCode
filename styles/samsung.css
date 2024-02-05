@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    background-color: #060606;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 26% ;
+    gap: 15px;
+    width: 80%;
+   padding: 50px 100px;
+}
+.gi{
+    background-color: white;
+    border-radius: 20px;
+}
+.fst-img{
+    grid-column:1/ span 3 ;
+}
+.second-img{
+    grid-column: 4;
+    grid-row: 1/ span 2;
+}
+
+@media screen and (max-width: 600px){
+    .grid{
+        grid-template-columns: 40% 40% ;
+    }
+    .fst-img{
+        grid-column:1/ span 2 ;
+    }
+    .second-img{
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    
+}
