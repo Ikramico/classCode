@@ -82,3 +82,21 @@ body{
     padding: 5px;
     margin: 0 10px;
 }
+
+@media screen and (min-width: 600px) and (max-width: 1280px){
+    .top-menu{
+        background-color: black;
+        justify-content: center;
+    }
+    .top{
+        color: white;
+    }
+}
+@media screen and (max-width:450px) {
+    .top-menu{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+}
