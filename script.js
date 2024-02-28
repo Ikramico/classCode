@@ -55,3 +55,9 @@ else{console.log('a is equal to 16');}
     default: console.log('b is greater than 20');
     break;
 }*/
+for(let i=0; i<22; i++){
+    
+    
+    
+}
+
