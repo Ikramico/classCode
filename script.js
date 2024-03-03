@@ -75,3 +75,30 @@ while(a<22){
     console.log(``);
 }
 console.log(a);*/
+//function declare
+/*function checkOddEven(x,y){
+    function checker(){
+        if(x<y){
+           return console.log('y is big');
+        }
+        else return console.log('x is big');
+    }
+    checker();
+    if(x%2==0){
+       return console.log('x is even');
+    }
+    else return console.log('x is odd');
+}
+checkOddEven(10,20);*/
+
+//variable function with ternary operator
+/*let ternary =function ternaryCheck(x){
+    (x%2==0)?console.log('even'):console.log('odd')
+}
+ternary(5);*/
+
+//arrow function
+let ternary =(x)=>{
+    (x%2==0)?console.log('even'):console.log('odd')
+}
+ternary(5);
