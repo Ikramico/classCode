@@ -98,7 +98,14 @@ checkOddEven(10,20);*/
 ternary(5);*/
 
 //arrow function
-let ternary =(x)=>{
+/*let ternary =(x)=>{
     (x%2==0)?console.log('even'):console.log('odd')
 }
-ternary(5);
+ternary(5);*/
+
+
+//parse to number
+let x = '2024';
+console.log(typeof x)
+let y =Number.parseInt(x);
+console.log(typeof y);
