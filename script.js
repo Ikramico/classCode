@@ -1,5 +1,50 @@
-let a = 1;
+let a = 2;
 const b=36;
+let arr = [34,25,41,85,94];
+
+let result = arr.reduce((acc,cv)=> acc+cv)
+console.log(result,res)
+
+
+
+//class
+class Student{
+    constructor(id, name, course){
+        this.id = id;
+        this.name = name;
+        this.course = course;
+    }
+    intro(){
+        console.log(`I am ${this.name} learning ${this.course} and my id is ${this.id}`);
+    }
+}
+
+let nishat = new Student('WD240236', 'nishat', 'web development');
+let Sahadot = new Student('WD2402387', 'Sahadot', 'web development');
+let sojib = new Student('WD240547', 'sojib', 'web development');
+console.log(nishat, Sahadot, sojib);
+nishat.intro();
+
+
+
+
+
+
+//return
+function addValue(){
+return a=a+11;
+}
+let oddEven= ()=> a%2==0? console.log('even'):console.log('odd');
+
+
+addValue();
+console.log(a);
+oddEven();
+
+
+
+
+
 /*console.log(a,b)
 
 console.log(a,b);
@@ -105,7 +150,7 @@ ternary(5);*/
 
 
 //parse to number
-let x = '2024';
+/*let x = '2024';
 console.log(typeof x)
 let y =Number.parseInt(x);
-console.log(typeof y);
+console.log(typeof y);*/
