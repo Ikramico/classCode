@@ -2,13 +2,35 @@ let a = 2;
 const b=36;
 let arr = [34,25,41,85,94];
 
-let result = arr.reduce((acc,cv)=> acc+cv)
-console.log(result,res)
+//object
+let me = {
+    cycle: true,
+    bag: 'black',
+    goggles: 1
+}
+
+let you = Object.create(me);
+you.bag = 'maroon'
+console.log(you.bag);
 
 
+
+
+if(typeof document !== 'undefined'){
+    let val =0;
+    function sum(){
+        val = val+5;
+       let ch = document.querySelector('.ko');
+    ch.innerText = val;
+    }
+    
+    console.log(ch);
+    
+
+}
 
 //class
-class Student{
+/*class Student{
     constructor(id, name, course){
         this.id = id;
         this.name = name;
@@ -40,7 +62,7 @@ let oddEven= ()=> a%2==0? console.log('even'):console.log('odd');
 addValue();
 console.log(a);
 oddEven();
-
+*/
 
 
 
