@@ -13,21 +13,19 @@ let you = Object.create(me);
 you.bag = 'maroon'
 console.log(you.bag);
 
-
-
-
-if(typeof document !== 'undefined'){
-    let val =0;
-    function sum(){
-        val = val+5;
-       let ch = document.querySelector('.ko');
-    ch.innerText = val;
-    }
-    
-    console.log(ch);
-    
-
+let val =0;
+function sum(){
+val=val+5;
+document.querySelector('.ko').innerHTML = val;
 }
+let bt = document.querySelector('.bt');
+
+bt.addEventListener("click",sum);
+
+
+
+
+
 
 //class
 /*class Student{
