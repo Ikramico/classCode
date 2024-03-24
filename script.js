@@ -1,14 +1,38 @@
 let a = 2;
 const b=36;
 let arr = [34,25,41,85,94];
+let targ = document.querySelector('.line');
+let src = document.querySelector('.addline');
+function addLine(){
+    console.log('kkkkk')
+    src.innerHTML += `<p>This is new line</p>`
+}
 
+
+
+
+
+/*
+ check =(y) => y%2==0 ? console.log(`${y} is even`): console.log(`${y} is odd`);
+
+check(26);*/
+
+
+
+
+/*function update(){
+    let x= 5;
+    console.log(x);
+}
+
+update();*/
 //object
-let me = {
+/*let me = {
     cycle: true,
     bag: 'black',
     goggles: 1
-}
-
+}*/
+/*
 let you = Object.create(me);
 you.bag = 'maroon'
 console.log(you.bag);
@@ -23,7 +47,7 @@ let bt = document.querySelector('.bt');
 bt.addEventListener("click",sum);
 
 
-
+*/
 
 
 
