@@ -1,13 +1,49 @@
 let a = 2;
 const b=36;
 let arr = [34,25,41,85,94];
+
+let product = {
+    title: 'shoe',
+    price: 250,
+    category: 'sport'
+}
+function cat(){
+    let cart = document.querySelector('.cart');
+let cartItem = document.createElement('div');
+
+cartItem.innerHTML=`<h2>${product.title}</h2>
+<p>${product.price}</p>
+<b>${product.category} </b>`;
+cart.appendChild(cartItem);
+}
+
+
+/*
+let Top = document.querySelectorAll('.top');
+console.log(Top)
+
+
+Top.forEach((x)=> x.addEventListener('click',() =>{ x.classList.remove('active');
+ this.classList.add('active');
+}))
+
+*/
+
+
+
+
+
+
+
+
+/*
 let targ = document.querySelector('.line');
 let src = document.querySelector('.addline');
 function addLine(){
     console.log('kkkkk')
     src.innerHTML += `<p>This is new line</p>`
 }
-
+*/
 
 
 

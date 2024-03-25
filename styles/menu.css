@@ -1,6 +1,11 @@
 body{
     margin: 0;
 }
+.active{
+    background-color: white;
+    color: black !important;
+    text-decoration: underline !important;
+}
 .top-menu{
     background-color: gainsboro;
     padding: 15px;
@@ -50,7 +55,7 @@ body{
     font-size: 30px;
 }
 .mt{
-    color: white;
+    color: red;
     padding: 5px 10px;
     text-decoration: none;
 }
