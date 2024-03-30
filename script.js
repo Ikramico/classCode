@@ -1,4 +1,4 @@
-let a = 2;
+/*let a = 2;
 const b=36;
 let arr = [34,25,41,85,94];
 
@@ -17,7 +17,27 @@ cartItem.innerHTML=`<h2>${product.title}</h2>
 cart.appendChild(cartItem);
 }
 
-
+// async function show(){
+//      await fetch('/obj.json').then(res=>res.json()).then(json=>console.log(json));
+// }
+// show();
+async function postJSON(data) {
+    try {
+      const response = await fetch("https://example.com/profile", {
+        method: "POST", // or 'PUT'
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      }).then(response =>response.json()).then(console.log("Success:"))
+      
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  }
+  
+  const data = { username: "example" };
+  postJSON(data);*/
 /*
 let Top = document.querySelectorAll('.top');
 console.log(Top)
