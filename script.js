@@ -1,4 +1,4 @@
-/*let a = 2;
+let a = 2;
 const b=36;
 let arr = [34,25,41,85,94];
 
@@ -37,7 +37,7 @@ async function postJSON(data) {
   }
   
   const data = { username: "example" };
-  postJSON(data);*/
+  postJSON(data);
 /*
 let Top = document.querySelectorAll('.top');
 console.log(Top)
