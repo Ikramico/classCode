@@ -11,4 +11,4 @@ console.log(str.toLowerCase().match("you"));
 console.log(str.toLowerCase().replaceAll("h","B"));
 let word =str.trim().split(' ');
 console.log(word.length);
-console.log(str.slice(ind, 16))
+console.log(str.slice(ind, 16));
